@@ -3,3 +3,10 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
+CREATE TABLE "departments" (
+    "dept_no" varchar(255)   NOT NULL,
+    "dept_name" varchar(255)   NOT NULL,
+    CONSTRAINT "pk_departments" PRIMARY KEY (
+        "dept_no"
+     )
+);

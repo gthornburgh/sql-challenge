@@ -71,3 +71,8 @@ SELECT employees.emp_no, employees.last_name, employees.first_name, employees.se
 FROM employees
 JOIN salaries
 ON employees.emp_no = salaries.emp_no
+
+-- 2. List employees who were hired in 1986.
+SELECT first_name, last_name, hire_date
+FROM employees
+WHERE hire_date BETWEEN '1986-01-01' AND '1987-01-01'

@@ -15,3 +15,8 @@ CREATE TABLE "salaries" (
     "emp_no" int   NOT NULL,
     "salary" int   NOT NULL
 );
+
+CREATE TABLE "dept_manager" (
+    "dept_no" varchar(255)   NOT NULL,
+    "emp_no" int   NOT NULL
+);

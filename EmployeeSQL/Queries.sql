@@ -10,3 +10,8 @@ CREATE TABLE "departments" (
         "dept_no"
      )
 );
+
+CREATE TABLE "salaries" (
+    "emp_no" int   NOT NULL,
+    "salary" int   NOT NULL
+);

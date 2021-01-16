@@ -38,3 +38,11 @@ CREATE TABLE "dept_emp" (
     "emp_no" int   NOT NULL,
     "dept_no" varchar   NOT NULL
 );
+
+CREATE TABLE "titles" (
+    "title_id" varchar(255)   NOT NULL,
+    "title" varchar(255)   NOT NULL,
+    CONSTRAINT "pk_titles" PRIMARY KEY (
+        "title_id"
+     )
+);

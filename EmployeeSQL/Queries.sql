@@ -33,3 +33,8 @@ CREATE TABLE "employees" (
         "emp_no"
      )
 );
+
+CREATE TABLE "dept_emp" (
+    "emp_no" int   NOT NULL,
+    "dept_no" varchar   NOT NULL
+);

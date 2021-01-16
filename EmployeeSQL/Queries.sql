@@ -20,3 +20,16 @@ CREATE TABLE "dept_manager" (
     "dept_no" varchar(255)   NOT NULL,
     "emp_no" int   NOT NULL
 );
+
+CREATE TABLE "employees" (
+    "emp_no" int   NOT NULL,
+    "emp_title_id" varchar(255)   NOT NULL,
+    "birth_date" date   NOT NULL,
+    "first_name" varchar(255)   NOT NULL,
+    "last_name" varchar(255)   NOT NULL,
+    "sex" varchar(255)   NOT NULL,
+    "hire_date" date   NOT NULL,
+    CONSTRAINT "pk_employees" PRIMARY KEY (
+        "emp_no"
+     )
+);
